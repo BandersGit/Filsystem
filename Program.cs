@@ -28,8 +28,10 @@ namespace Filsystem
             {
             string[] words = File.ReadAllLines("words.txt");
 
-            System.Console.WriteLine(words[0]);
+            Console.WriteLine(words[0]);
             }
+
+            Console.WriteLine("Hello");
 
 
             Console.ReadLine();
